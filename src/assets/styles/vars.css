@@ -1,0 +1,13 @@
+:root{
+    --color-text-primary: #2C2416;
+    --color-text-secondary: #5C5248;
+    --color-accent: #C45C3E;
+    --color-background: #FAF6F1;
+    --color-background-secondary: #D4CCC2;
+    --color-background-dark: #F3EDE6;
+    --color-background-grey: #E8DFD4;
+    --color-border: #E0D8CE;
+    --color-green: #5C6B4A;
+    --font-inter: 'Inter', sans-serif;
+    --color-error: #c05353;
+}

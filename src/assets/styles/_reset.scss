@@ -1,0 +1,61 @@
+/* Reset стили */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+.row {
+  margin-right: 0px;
+}
+body {
+  margin: 0;
+  font-family: var(--font-inter);
+  font-size: 16px;
+  line-height: 100%;
+  color: var(--color-text-primary);
+  background-color: var(--color-background);
+}
+
+hr {
+  height: 0;
+  color: inherit;
+  border-top-width: 1px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+}
+
+input,
+textarea,
+select {
+  font: inherit;
+}

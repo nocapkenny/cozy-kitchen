@@ -1,0 +1,19 @@
+.faq {
+  padding-bottom: 40px;
+  &__title {
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 600px) {
+  .faq {
+    padding-bottom: 22px;
+    &__title {
+      margin-bottom: 12px;
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+}
