@@ -8,9 +8,9 @@ import Button from "../../generics/Button/Button.vue";
       <div class="hero__inner">
         <div class="hero__banner">
           <picture>
-            <source media="(max-width: 600px)" srcset="../../../assets/images/hero-banner-mobile.jpg">
+            <source media="(max-width: 600px)" srcset="@/assets/images/hero-banner-mobile.jpg">
             <img
-              src="../../../assets/images/hero-banner.jpg"
+              src="@/assets/images/hero-banner.jpg"
               alt="Домашняя кухня в центре города"
               loading="lazy"
               class="hero__banner-img"
