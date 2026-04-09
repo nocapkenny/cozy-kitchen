@@ -3,11 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://nocapkenny.github.io/cozy-kitchen",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
+  
   "dependencies": {
     "imask": "^7.6.1",
     "just-validate": "^4.3.0",
